@@ -1,1 +1,0 @@
-gcc -o exchange-daemon src/main.c src/db/mongo_ops.c $(pkg-config --cflags --libs libmongoc-1.0)
